@@ -9,7 +9,7 @@ dp = Dispatcher(bot=bot)
 
 kb = ReplyKeyboardMarkup(resize_keyboard=True)
 
-
+# new
 @dp.message_handler(commands=['start'])
 async def start_command(message: types.Message):
     await message.reply(text="Qalaysan")
